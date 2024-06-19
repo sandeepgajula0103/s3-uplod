@@ -18,6 +18,6 @@ terraform {
 
 provider "aws" {
   region = var.region
-  shared_credentials_files = "/home/sandeep/.aws/credentials"
+  shared_credentials_files = ["/home/sandeep/.aws/credentials"]
   profile = "default"
 }
