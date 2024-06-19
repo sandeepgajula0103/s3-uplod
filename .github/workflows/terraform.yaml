@@ -24,7 +24,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    # Add a step to package the Lambda function
+
     - name: Package Lambda Function
       run: |
         cd ../lambda
