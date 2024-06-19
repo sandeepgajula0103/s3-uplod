@@ -11,7 +11,7 @@ dada
 This project sets up an AWS infrastructure to automatically process and sort uploaded files into designated folders based on their file extensions. It leverages AWS S3, AWS Lambda, and Terraform for infrastructure setup and management. Additionally, it provides a ReactJS frontend application for users to upload files to AWS S3.
 sdada
 
-
+dadad
 ## Project Overview
 - Step 1: Git clone and code review
 - Step 2: AWS IAM role and CLI access
