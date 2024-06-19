@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "cloudcore-org"
+    organization = "CloudHubActions"
 
     workspaces {
-      name = "cloudcore"
+      name = "s3_uploader"
     }
   }
   required_version = ">= 1.6.3"
